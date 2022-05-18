@@ -1,5 +1,6 @@
 import React from 'react';
-import { AiFillLock } from "react-icons/ai";
+import { FaLock } from "react-icons/fa";
+
 
 // Renderse lockscreen
 class LockScreen extends React.Component {
@@ -7,7 +8,7 @@ class LockScreen extends React.Component {
         return (
             <div>
                 <div className="lock-display">
-                    <button aria-hidden="true"><AiFillLock/></button> 
+                    <button aria-hidden="true" >'<FaLock/></button>
                 </div>
                 <div className="bottom-div-lock">
                     <h3>Press Centre Button to unlock!</h3>

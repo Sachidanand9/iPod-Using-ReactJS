@@ -2,10 +2,8 @@ import React from 'react';
 import "../css/Wheel.css"
 import ZingTouch from 'zingtouch';
 import { FaFastForward } from "react-icons/fa";
+import { FaPlay } from "react-icons/fa";
 import { FaFastBackward } from "react-icons/fa";
-import { CgPlayPause } from "react-icons/cg";
-
-
 // Render wheel
 class Wheel extends React.Component {
     constructor() {
@@ -21,17 +19,15 @@ class Wheel extends React.Component {
                         <div style={{color:theme}}>MENU</div>
                     </div>
                     <div className="controll" id="forward">
-                        {/* <i style={{color:theme}} className="fas fa-fast-forward"></i> */}
-                        <button style={{color:theme}}><FaFastForward/></button>
+                    <button style={{color:theme}} ><FaFastForward/></button> 
                     </div>
                     <div className="controll" id="play-pause">
                         <div>
-                            <button style={{color:theme}}><CgPlayPause/></button>
-                            {/* <button style={{color:theme}}><FaPause/></button> */}
+                        <button style={{color:theme}} ><FaPlay/></button> 
                         </div>
                     </div>
                     <div className="controll" id="reverse">
-                    <button style={{color:theme}}><FaFastBackward/></button>
+                        <button style={{color:theme}} ><FaFastBackward/></button> 
                     </div>
                 </div>
 

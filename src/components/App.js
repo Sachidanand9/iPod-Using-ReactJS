@@ -6,18 +6,18 @@ import '../css/App.css';
 import Case from './Case.js';
 import KnowMore from "./KnowMore.js"
 // Import songs
-import song1 from "../static/songs/Post Malone - White Iverson.mp3"
-import song2 from "../static/songs/John Denver - Country Roads.mp3"
-import song3 from "../static/songs/Sigrid - High Five.mp3"
-import song4 from "../static/songs/Khalid - Young Dumb Broke.mp3"
-import song5 from "../static/songs/Rick Astley - Never Gonna Give You Up.mp3"
+import song1 from "../static/songs/01 Tera Fitoor - Genius.mp3"
+import song2 from "../static/songs/Ambarsariya-Suit Suit.mp3"
+import song3 from "../static/songs/Dil Diya Gallan (Tiger Zinda Hai).mp3"
+import song4 from "../static/songs/Dil Taan Pagal-Je Tu Na.mp3"
+import song5 from "../static/songs/Patola - Guru Randhawa.mp3"
 
 // Import song cover images
-import song1Img from "../static/Post Malone - White Iverson.png";
-import song2Img from "../static/John Denver - Country Roads.jpg";
-import song3Img from "../static/Sigrid - High Five.png";
-import song4Img from "../static/Khalid - Young Dumb Broke.jpg";
-import song5Img from "../static/Never Gonna Give You Up.png";
+import song1Img from "../static/Tera fitoor.jpg";
+import song2Img from "../static/Suit.jpg";
+import song3Img from "../static/Dil Diyan.jpg";
+import song4Img from "../static/Dil Taan.jpg";
+import song5Img from "../static/Patola.jpg";
 
 // Import wallpapers
 import Wallpaper1 from "../static/wallpaper1.jpg"
@@ -36,7 +36,7 @@ class App extends React.Component {
       songItemsUrl: [song1, song2, song3,song4,song5,],  //songs list
       songImgItemsUrl: [song1Img, song2Img, song3Img,song4Img,song5Img,],  //song images list
       wallpaperItems: [Wallpaper1, Wallpaper2, Wallpaper3], //wallpapers
-      songItems: ["Post Malone - White Iverson", "John Denver - Country Roads", "Sigrid Raabe - High Five","Khalid - Young Dumb Broke","Rick Astley - Never Gonna Give You Up"], //song names
+      songItems: ["01 Tera Fitoor - Genius", "Ambarsariya-Suit Suit - Guru Randhawa ", "Dil Diya Gallan (Tiger Zinda Hai))","Dil Taan Pagal-Je Tu Na","Patola - Guru Randhawa"], //song names
       songIndex: 0, //current song
       lengthMenuKey: { "-1": 3, 1: 2, 4: 4, 8: 4, 3: 2, 9: 3 ,10:2},  //length of a particular menu
       menuMapping: { "-1": [0, 1, 2, 3], 1: [4, 5, 6], 3: [8, 9, 10] }, //which menu can be rendered by key menu
